@@ -125,6 +125,32 @@
   background-color: #45a049;
 }
 
+.clear-button {
+  background-color: #f44336;
+  color: white;
+  padding: 12px 30px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 10px;
+}
+
+.clear-button:hover {
+  background-color: #da190b;
+}
+
+.no-results {
+  text-align: center;
+  color: #666;
+  font-size: 1.1rem;
+  padding: 40px;
+  background: #f9f9f9;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
 /* Listings */
 .listings-container {
   margin-top: 50px;
@@ -210,6 +236,52 @@
   color: #555;
 }
 
+/* Amenities */
+.amenities-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  font-weight: normal;
+  color: #555;
+}
+
+.checkbox-label input[type="checkbox"] {
+  width: auto;
+  cursor: pointer;
+}
+
+.listing-amenities {
+  margin: 15px 0;
+}
+
+.listing-amenities p {
+  margin-bottom: 8px;
+  font-size: 0.9rem;
+}
+
+.amenities-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.amenity-tag {
+  background-color: #e8f5e9;
+  color: #2e7d32;
+  padding: 5px 12px;
+  border-radius: 15px;
+  font-size: 0.85rem;
+  display: inline-block;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
   .form-row {
@@ -222,5 +294,9 @@
 
   .button-group {
     flex-direction: column;
+  }
+
+  .amenities-grid {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
