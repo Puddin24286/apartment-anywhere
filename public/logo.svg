@@ -1,0 +1,18 @@
+<svg width="300" height="350" viewBox="0 0 300 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Location Pin -->
+  <path d="M 150 30 C 100 30 60 70 60 120 C 60 180 150 280 150 280 C 150 280 240 180 240 120 C 240 70 200 30 150 30 Z"
+        fill="#6A1B9A" stroke="#4A148C" stroke-width="4"/>
+
+  <!-- Inner Circle (White Background for AA) -->
+  <circle cx="150" cy="110" r="55" fill="white"/>
+
+  <!-- Globe/World Lines -->
+  <circle cx="150" cy="110" r="50" fill="none" stroke="#6A1B9A" stroke-width="2"/>
+  <ellipse cx="150" cy="110" rx="50" ry="25" fill="none" stroke="#6A1B9A" stroke-width="1.5"/>
+  <ellipse cx="150" cy="110" rx="25" ry="50" fill="none" stroke="#6A1B9A" stroke-width="1.5"/>
+  <line x1="100" y1="110" x2="200" y2="110" stroke="#6A1B9A" stroke-width="1.5"/>
+
+  <!-- A Text -->
+  <text x="150" y="125" font-family="Arial, sans-serif" font-size="45" font-weight="bold"
+        fill="#6A1B9A" text-anchor="middle">A</text>
+</svg>

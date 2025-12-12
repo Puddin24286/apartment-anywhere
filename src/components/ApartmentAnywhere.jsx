@@ -134,6 +134,9 @@ function ApartmentAnywhere() {
 
   return (
     <div className="apartment-anywhere-container">
+      <div className="header">
+        <img src="/logo.svg" alt="Apartment Anywhere Logo" className="logo" />
+      </div>
       <h1>Apartment Anywhere</h1>
       <p>Find your perfect apartment</p>
 

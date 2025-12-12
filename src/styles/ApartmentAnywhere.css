@@ -5,13 +5,27 @@
   text-align: center;
 }
 
-.apartment-anywhere-container h1 {
-  font-size: 2.5rem;
-  color: #333;
-  margin-bottom: 10px;
+/* Header with Logo */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
 }
 
-.apartment-anywhere-container p {
+.logo {
+  width: 180px;
+  height: auto;
+}
+
+.apartment-anywhere-container h1 {
+  font-size: 2.5rem;
+  color: #6A1B9A;
+  margin: 10px 0;
+  font-weight: 600;
+}
+
+.apartment-anywhere-container > p {
   font-size: 1.2rem;
   color: #666;
   margin-bottom: 30px;
@@ -29,20 +43,20 @@
 .inactive-tab {
   padding: 12px 30px;
   font-size: 1rem;
-  border: 2px solid #4CAF50;
+  border: 2px solid #6A1B9A;
   border-radius: 5px;
   cursor: pointer;
   transition: all 0.3s;
 }
 
 .active-tab {
-  background-color: #4CAF50;
+  background-color: #6A1B9A;
   color: white;
 }
 
 .inactive-tab {
   background-color: white;
-  color: #4CAF50;
+  color: #6A1B9A;
 }
 
 .inactive-tab:hover {
@@ -91,7 +105,7 @@
 .form-group input:focus,
 .form-group textarea:focus {
   outline: none;
-  border-color: #4CAF50;
+  border-color: #6A1B9A;
 }
 
 .form-group small {
@@ -109,7 +123,7 @@
 
 .search-button,
 .submit-button {
-  background-color: #4CAF50;
+  background-color: #6A1B9A;
   color: white;
   padding: 15px 40px;
   font-size: 1.1rem;
@@ -122,7 +136,7 @@
 
 .search-button:hover,
 .submit-button:hover {
-  background-color: #45a049;
+  background-color: #4A148C;
 }
 
 .clear-button {
@@ -205,7 +219,7 @@
 }
 
 .listing-price {
-  color: #4CAF50;
+  color: #6A1B9A;
   font-size: 1.3rem;
   font-weight: bold;
   margin: 10px 0;
