@@ -137,8 +137,8 @@ function ApartmentAnywhere() {
       <div className="header">
         <img src="/logo.svg" alt="Apartment Anywhere Logo" className="logo" />
       </div>
-      <h1>Apartment Anywhere</h1>
-      <p>Find your perfect apartment</p>
+      <h1>Stay Smart. Live Anywhere.</h1>
+      <p>apartment-anywhere.com</p>
 
       <div className="button-group">
         <button
